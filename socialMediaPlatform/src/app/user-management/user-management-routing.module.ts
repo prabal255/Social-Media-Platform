@@ -13,7 +13,8 @@ const routes: Routes = [
     children:[
       {
         path:'',
-        component:UserSignInComponent
+        redirectTo:'SignIn',
+        pathMatch:'full'
       },
       {
         path:'SignIn',
@@ -28,8 +29,7 @@ const routes: Routes = [
   {
     path:'HomePage',
     component:HomePageComponent,
-  }
-,
+  },
   {
     path:'profile',
     component:UserProfileComponent

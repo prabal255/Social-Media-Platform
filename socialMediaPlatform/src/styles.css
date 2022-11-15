@@ -4,13 +4,9 @@
 @import url("./assets/UserProfile/css/responsive.css");
 @import url("./assets/UserProfile/css/responsive.css");
 
-@import url('./assets/UserManagement/css/animate.css');
-@import url('./assets/UserManagement/css/bootstrap.min.css');
-/* @import url('./assets/UserManagement/css/line-awesome.css'); */
-/* @import url('./assets/UserManagement/css/line-awesome-font-awesome.min.css'); */
-/* @import url('./assets/UserManagement/vendor/fontawesome-free/css/all.min.css'); */
-/* @import url('./assets/UserManagement/css/font-awesome.min.css'); */
-@import url('./assets/UserManagement/lib/slick/slick.css');
-@import url('./assets/UserManagement/lib/slick/slick-theme.css');
 @import url('./assets/UserManagement/css/style.css');
 @import url('./assets/UserManagement/css/responsive.css'); 
+
+@import url("./assets/UserProfile/css/main.min.css");
+
+
