@@ -1,0 +1,15 @@
+
+.user-avatar{
+    top: -5px;
+}
+.feature-photo {
+    display: block;
+    top: 211px;
+    position: relative;
+    /* z-index: 99999999; */
+    width: 100%;
+}
+.edit-phto {
+    left: 315px;
+    bottom: 320px;
+}
