@@ -10,6 +10,7 @@ export class UserSignUpComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+   
   }
 
 }

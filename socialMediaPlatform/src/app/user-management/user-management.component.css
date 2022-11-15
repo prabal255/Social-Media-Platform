@@ -1,0 +1,40 @@
+/* @import url('./assets/UserManagement/css/line-awesome.css'); */
+/* @import url('./assets/UserManagement/css/line-awesome-font-awesome.min.css'); */
+/* @import url('./assets/UserManagement/vendor/fontawesome-free/css/all.min.css'); */
+/* @import url('./assets/UserManagement/css/font-awesome.min.css'); */
+
+/* @import url('/src/assets/UserManagement/css/animate.css');
+@import url('/src/assets/UserManagement/css/bootstrap.min.css');
+
+@import url('/src/assets/UserManagement/lib/slick/slick.css');
+@import url('/src/assets/UserManagement/lib/slick/slick-theme.css');
+@import url('/src/assets/UserManagement/css/style.css');
+@import url('/src/assets/UserManagement/css/responsive.css');  */
+
+.sign-control li.current a {
+    background-color: #008eff;
+    color: #fff;
+}
+.signup-tab ul li.current a {
+    background-color: #008eff;
+    color: #fff;
+}
+.sign_in_sec form button {
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #008eff;
+    padding: 12px 27px;
+    border: 0;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.sign_in_sec h3:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #008eff;
+}
