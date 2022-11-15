@@ -301,8 +301,7 @@
       <div class="topbar stick">
         <div class="logo">
           <a title="" href="newsfeed.html"
-            ><img src="../../../assets/UserProfile/images/logo.png" alt=""
-          /></a>
+            ></a>
         </div>
 
         <div class="top-area">
@@ -391,23 +390,23 @@
           <ul class="setting-area">
             <li>
               <a href="#" title="Home" data-ripple=""
-                ><i class="ti-search"></i
+                ><i class="fa fa-search"></i
               ></a>
               <div class="searched">
                 <form method="post" class="form-search">
                   <input type="text" placeholder="Search Friend" />
-                  <button data-ripple><i class="ti-search"></i></button>
+                  <button data-ripple><i class="fa fa-search"></i></button>
                 </form>
               </div>
             </li>
             <li>
               <a href="newsfeed.html" title="Home" data-ripple=""
-                ><i class="ti-home"></i
+                ><i class="fa fa-home"></i
               ></a>
             </li>
             <li>
               <a href="#" title="Notification" data-ripple="">
-                <i class="ti-bell"></i><span>20</span>
+                <i class="fa fa-bell"></i><span>20</span>
               </a>
               <div class="dropdowns">
                 <span>4 New Notifications</span>
@@ -475,7 +474,7 @@
             </li>
             <li>
               <a href="#" title="Messages" data-ripple=""
-                ><i class="ti-comment"></i><span>12</span></a
+                ><i class="fa fa-comment"></i><span>12</span></a
               >
               <div class="dropdowns">
                 <span>5 New Messages</span>
@@ -544,7 +543,7 @@
                 ><i class="fa fa-globe"></i
               ></a>
               <div class="dropdowns languages">
-                <a href="#" title=""><i class="ti-check"></i>English</a>
+                <a href="#" title=""><i class="fa fa-check"></i>English</a>
                 <a href="#" title="">Arabic</a>
                 <a href="#" title="">Dutch</a>
                 <a href="#" title="">French</a>
@@ -552,24 +551,25 @@
             </li>
           </ul>
           <div class="user-img">
-            <img src="../../../assets/UserProfile/images/resources/admin.jpg" alt="" />
+            <img src="../../../assets/UserProfile/images/resources/admin.jpg" (click)="button()" alt="" />
+      
             <span class="status f-online"></span>
-            <div class="user-setting">
+            <div class={{class}}>
               <a href="#" title=""
                 ><span class="status f-online"></span>online</a
               >
               <a href="#" title=""><span class="status f-away"></span>away</a>
               <a href="#" title=""><span class="status f-off"></span>offline</a>
-              <a href="#" title=""><i class="ti-user"></i> view profile</a>
-              <a href="#" title=""><i class="ti-pencil-alt"></i>edit profile</a>
-              <a href="#" title=""><i class="ti-target"></i>activity log</a>
+              <a href="#" title=""><i class="fa fa-user"></i> view profile</a>
+              <a href="#" title=""><i class="fa fa-pencil-alt"></i>edit profile</a>
+              <a href="#" title=""><i class="fa fa-target"></i>activity log</a>
               <a href="#" title=""
-                ><i class="ti-settings"></i>account setting</a
+                ><i class="fa fa-settings"></i>account setting</a
               >
-              <a href="#" title=""><i class="ti-power-off"></i>log out</a>
+              <a href="#" title=""><i class="fa fa-power-off"></i>log out</a>
             </div>
           </div>
-          <span class="ti-menu main-menu" data-ripple=""></span>
+          <span class="fa fa-menu main-menu" data-ripple=""></span>
         </div>
       </div>
       <!-- topbar -->
@@ -586,41 +586,41 @@
                         <h4 class="widget-title">Shortcuts</h4>
                         <ul class="naves">
                           <li>
-                            <i class="ti-clipboard"></i>
+                            <i class="fa fa-clipboard"></i>
                             <a href="newsfeed.html" title="">News feed</a>
                           </li>
                           <li>
-                            <i class="ti-mouse-alt"></i>
+                            <i  class="fa fa-address-book" aria-hidden="true"></i>
                             <a href="inbox.html" title="">Inbox</a>
                           </li>
                           <li>
-                            <i class="ti-files"></i>
+                            <i class="fa fa-file" aria-hidden="true"></i>
                             <a href="fav-page.html" title="">My pages</a>
                           </li>
                           <li>
-                            <i class="ti-user"></i>
+                            <i class="fa fa-user"></i>
                             <a href="timeline-friends.html" title="">friends</a>
                           </li>
                           <li>
-                            <i class="ti-image"></i>
-                            <a href="timeline-photos.html" title="">../../../assets/UserProfile/images</a>
+                            <i class="fa fa-image"></i>
+                            <a href="timeline-photos.html" title="">Images</a>
                           </li>
                           <li>
-                            <i class="ti-video-camera"></i>
+                            <i class="fa fa-video-camera"></i>
                             <a href="timeline-videos.html" title="">videos</a>
                           </li>
                           <li>
-                            <i class="ti-comments-smiley"></i>
+                            <i class="fa fa-comments-o"></i>
                             <a href="messages.html" title="">Messages</a>
                           </li>
                           <li>
-                            <i class="ti-bell"></i>
+                            <i class="fa fa-bell"></i>
                             <a href="notifications.html" title=""
                               >Notifications</a
                             >
                           </li>
                           <li>
-                            <i class="ti-share"></i>
+                            <i class="fa fa-share"></i>
                             <a href="people-nearby.html" title=""
                               >People Nearby</a
                             >
@@ -630,7 +630,7 @@
                             <a href="insights.html" title="">insights</a>
                           </li>
                           <li>
-                            <i class="ti-power-off"></i>
+                            <i class="fa fa-power-off"></i>
                             <a href="landing.html" title="">Logout</a>
                           </li>
                         </ul>
@@ -679,8 +679,8 @@
                         </ul>
                       </div>
                       <!-- recent activites -->
-                      <div class="widget stick-widget">
-                        <h4 class="widget-title">Who's follownig</h4>
+                      <div class="widget stick-widget" >
+                        <h4 class="widget-title">Who's following</h4>
                         <ul class="followers">
                           <li>
                             <figure>
@@ -772,7 +772,7 @@
                     <div class="central-meta">
                       <div class="new-postbox">
                         <figure>
-                          <img src="../../../assets/UserProfile/images/resources/admin2.jpg" alt="" />
+                          <img src="../../../assets/UserProfile/images/resources/Prabal_Identity_Card.png" alt="" />
                         </figure>
                         <div class="newpst-input">
                           <form method="post">
@@ -817,27 +817,28 @@
                     </div>
                     <!-- add post new box -->
                     <div class="loadMore">
-                      <div class="central-meta item">
+                      <div class="central-meta item" >
                         <div class="user-post">
                           <div class="friend-info">
                             <figure>
                               <img
-                                src="../../../assets/UserProfile/images/resources/friend-avatar10.jpg"
+                                src="../../../assets/UserProfile/images/resources/Prabal_Identity_Card.png"
                                 alt=""
                               />
                             </figure>
                             <div class="friend-name">
                               <ins
-                                ><a href="time-line.html" title=""
-                                  >Janice Griffith</a
+                                ><a routerLink="profile" title=""
+                                  >Prabal Surana</a
                                 ></ins
                               >
-                              <span>published: june,2 2018 19:PM</span>
+                              <span>published: November,15 , 2022 19:PM</span>
                             </div>
                             <div class="post-meta">
                               <img
-                                src="../../../assets/UserProfile/images/resources/user-post.jpg"
+                                src="../../../assets/UserProfile/images/resources/Prabal_Identity_Card.png"
                                 alt=""
+                    
                               />
                               <div class="we-video-info">
                                 <ul>
@@ -877,7 +878,8 @@
                                       data-toggle="tooltip"
                                       title="dislike"
                                     >
-                                      <i class="ti-heart-broken"></i>
+                          
+                                    <i class="fas fa-heart-broken"></i>
                                       <ins>200</ins>
                                     </span>
                                   </li>
@@ -1171,7 +1173,7 @@
                                       data-toggle="tooltip"
                                       title="like"
                                     >
-                                      <i class="ti-heart"></i>
+                                      <i class="fa fa-heart"></i>
                                       <ins>2.2k</ins>
                                     </span>
                                   </li>
@@ -1181,7 +1183,7 @@
                                       data-toggle="tooltip"
                                       title="dislike"
                                     >
-                                      <i class="ti-heart-broken"></i>
+                                      <i class="fa fa-heart-broken"></i>
                                       <ins>200</ins>
                                     </span>
                                   </li>
@@ -1412,7 +1414,7 @@
                                       data-toggle="tooltip"
                                       title="like"
                                     >
-                                      <i class="ti-heart"></i>
+                                      <i class="fa fa-heart"></i>
                                       <ins>2.2k</ins>
                                     </span>
                                   </li>
@@ -1422,7 +1424,7 @@
                                       data-toggle="tooltip"
                                       title="dislike"
                                     >
-                                      <i class="ti-heart-broken"></i>
+                                      <i class="fa fa-heart-broken"></i>
                                       <ins>200</ins>
                                     </span>
                                   </li>
@@ -1673,7 +1675,7 @@
                                       data-toggle="tooltip"
                                       title="like"
                                     >
-                                      <i class="ti-heart"></i>
+                                      <i class="fa fa-heart"></i>
                                       <ins>2.2k</ins>
                                     </span>
                                   </li>
@@ -1683,7 +1685,7 @@
                                       data-toggle="tooltip"
                                       title="dislike"
                                     >
-                                      <i class="ti-heart-broken"></i>
+                                      <i class="fa fa-heart-broken"></i>
                                       <ins>200</ins>
                                     </span>
                                   </li>
@@ -1774,13 +1776,13 @@
                           <div class="page-meta">
                             <a href="#" title="" class="underline">My page</a>
                             <span
-                              ><i class="ti-comment"></i
+                              ><i class="fa fa-comment"></i
                               ><a href="insight.html" title=""
                                 >Messages <em>9</em></a
                               ></span
                             >
                             <span
-                              ><i class="ti-bell"></i
+                              ><i class="fa fa-bell"></i
                               ><a href="insight.html" title=""
                                 >Notifications <em>2</em></a
                               ></span
@@ -1805,7 +1807,7 @@
                             <!-- Tab panes -->
                             <div class="tab-content">
                               <div class="tab-pane active fade show" id="link1">
-                                <span><i class="ti-heart"></i>884</span>
+                                <span><i class="fa fa-heart"></i>884</span>
                                 <a href="#" title="weekly-likes"
                                   >35 new likes this week</a
                                 >
@@ -1875,7 +1877,7 @@
                                 </div>
                               </div>
                               <div class="tab-pane fade" id="link2">
-                                <span><i class="ti-eye"></i>440</span>
+                                <span><i class="fa fa-eye"></i>440</span>
                                 <a href="#" title="weekly-likes"
                                   >440 new views this week</a
                                 >
@@ -1949,27 +1951,7 @@
                         </div>
                       </div>
                       <!-- page like widget -->
-                      <div class="widget">
-                        <div class="banner medium-opacity bluesh">
-                          <div
-                            class="bg-image"
-                            style="
-                              background-image: url(../../../assets/UserProfile/images/resources/baner-widgetbg.jpg);
-                            "
-                          ></div>
-                          <div class="baner-top">
-                            <span
-                              ><img alt="" src="../../../assets/UserProfile/images/book-icon.png"
-                            /></span>
-                            <i class="fa fa-ellipsis-h"></i>
-                          </div>
-                          <div class="banermeta">
-                            <p>create your own favourit page.</p>
-                            <span>like them all</span>
-                            <a data-ripple="" title="" href="#">start now!</a>
-                          </div>
-                        </div>
-                      </div>
+                      
                       <div class="widget friend-list stick-widget">
                         <h4 class="widget-title">Friends</h4>
                         <div id="searchDir"></div>
@@ -2135,24 +2117,7 @@
                             </div>
                           </li>
                           <li>
-                            <figure>
-                              <img
-                                src="../../../assets/UserProfile/images/resources/friend-avatar2.jpg"
-                                alt=""
-                              />
-                              <span class="status f-away"></span>
-                            </figure>
-                            <div class="friendz-meta">
-                              <a href="time-line.html">Sarah Loren</a>
-                              <i
-                                ><a
-                                  href="https://wpkixx.com/cdn-cgi/l/email-protection"
-                                  class="__cf_email__"
-                                  data-cfemail="2644475448435566414b474f4a0845494b"
-                                  >[email&#160;protected]</a
-                                ></i
-                              >
-                            </div>
+                        
                           </li>
                         </ul>
                         <div class="chat-box">
@@ -2160,9 +2125,9 @@
                             <span class="status f-online"></span>
                             <h6>Bucky Barnes</h6>
                             <div class="more">
-                              <span><i class="ti-more-alt"></i></span>
+                              <span><i class="fa fa-more-alt"></i></span>
                               <span class="close-mesage"
-                                ><i class="ti-close"></i
+                                ><i class="fa fa-close"></i
                               ></span>
                             </div>
                           </div>
@@ -2274,119 +2239,6 @@
           </div>
         </div>
       </section>
-
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-4">
-              <div class="widget">
-                <div class="foot-logo">
-                  <div class="logo">
-                    <a href="index-2.html" title=""
-                      ><img src="../../../assets/UserProfile/images/logo.png" alt=""
-                    /></a>
-                  </div>
-                  <p>
-                    The trio took this simple idea and built it into the world’s
-                    leading carpooling platform.
-                  </p>
-                </div>
-                <ul class="location">
-                  <li>
-                    <i class="ti-map-alt"></i>
-                    <p>33 new montgomery st.750 san francisco, CA USA 94105.</p>
-                  </li>
-                  <li>
-                    <i class="ti-mobile"></i>
-                    <p>+1-56-346 345</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4">
-              <div class="widget">
-                <div class="widget-title"><h4>follow</h4></div>
-                <ul class="list-style">
-                  <li>
-                    <i class="fa fa-facebook-square"></i>
-                    <a href="https://web.facebook.com/shopcircut/" title=""
-                      >facebook</a
-                    >
-                  </li>
-                  <li>
-                    <i class="fa fa-twitter-square"></i
-                    ><a href="https://twitter.com/login?lang=en" title=""
-                      >twitter</a
-                    >
-                  </li>
-                  <li>
-                    <i class="fa fa-instagram"></i
-                    ><a href="https://www.instagram.com/?hl=en" title=""
-                      >instagram</a
-                    >
-                  </li>
-                  <li>
-                    <i class="fa fa-google-plus-square"></i>
-                    <a href="https://plus.google.com/discover" title=""
-                      >Google+</a
-                    >
-                  </li>
-                  <li>
-                    <i class="fa fa-pinterest-square"></i>
-                    <a href="https://www.pinterest.com/" title="">Pintrest</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4">
-              <div class="widget">
-                <div class="widget-title"><h4>Navigate</h4></div>
-                <ul class="list-style">
-                  <li><a href="about.html" title="">about us</a></li>
-                  <li><a href="contact.html" title="">contact us</a></li>
-                  <li><a href="terms.html" title="">terms & Conditions</a></li>
-                  <li><a href="#" title="">RSS syndication</a></li>
-                  <li><a href="sitemap.html" title="">Sitemap</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4">
-              <div class="widget">
-                <div class="widget-title"><h4>useful links</h4></div>
-                <ul class="list-style">
-                  <li><a href="#" title="">leasing</a></li>
-                  <li><a href="#" title="">submit route</a></li>
-                  <li><a href="#" title="">how does it work?</a></li>
-                  <li><a href="#" title="">agent listings</a></li>
-                  <li><a href="#" title="">view All</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4">
-              <div class="widget">
-                <div class="widget-title"><h4>download apps</h4></div>
-                <ul class="colla-apps">
-                  <li>
-                    <a href="https://play.google.com/store?hl=en" title=""
-                      ><i class="fa fa-android"></i>android</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://www.apple.com/lae/ios/app-store/" title=""
-                      ><i class="ti-apple"></i>iPhone</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://www.microsoft.com/store/apps" title=""
-                      ><i class="fa fa-windows"></i>Windows</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
       <!-- footer -->
       <div class="bottombar">
         <div class="container">
@@ -2469,9 +2321,9 @@
     </div>
     <!-- side panel -->
 
-    <!-- <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/main.min.js"></script> -->
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../../../assets/UserProfile/js/script.js"></script>
     <script src="../../../assets/UserProfile/js/script.js"></script>
     <script src="../../../assets/UserProfile/js/map-init.js"></script>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8c55_YHLvDHGACkQscgbGLtLRdxBDCfI"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8c55_YHLvDHGACkQscgbGLtLRdxBDCfI"></script>
   </body>
 </html>

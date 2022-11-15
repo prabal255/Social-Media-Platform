@@ -33,7 +33,12 @@ const routes: Routes = [
   {
     path:'profile',
     component:UserProfileComponent
+  },
+  {
+    path:'HomePage/profile',
+    component:UserProfileComponent
   }
+
 ];
 
 @NgModule({
