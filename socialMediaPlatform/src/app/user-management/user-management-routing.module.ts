@@ -5,6 +5,7 @@ import { UserManagementComponent } from './user-management.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UserSignInComponent } from './user-sign-in/user-sign-in.component';
 import { UserSignUpComponent } from './user-sign-up/user-sign-up.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,10 @@ const routes: Routes = [
   {
     path:'HomePage/profile',
     component:UserProfileComponent
+  },
+  {
+    path:'changepassword',
+    component:ChangePasswordComponent
   }
 
 ];
