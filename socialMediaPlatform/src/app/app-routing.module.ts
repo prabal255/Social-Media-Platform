@@ -11,6 +11,18 @@ pathMatch: 'full'
   {
     path: 'UserManagement',
     loadChildren: () => import('./user-management/user-management.module').then(m => m.UserManagementModule)
+  },
+  {
+    path: 'Admin',
+    loadChildren: () => import('./Views/Modules/auth/auth.module').then(m => m.AuthModule)
+  },
+  {
+    path: 'Admin/Auth',
+    loadChildren: () => import('./Views/Modules/auth/auth.module').then(m => m.AuthModule)
+  },
+  {
+    path: 'Admin/Panel',
+    loadChildren: () => import('./Views/Modules/admin-panel/admin-panel.module').then(m => m.AdminPanelModule)
   }
   
 ];
