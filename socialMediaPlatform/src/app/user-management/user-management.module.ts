@@ -8,6 +8,9 @@ import { UserManagementComponent } from './user-management.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { HomepagenavbarComponent } from './homepagenavbar/homepagenavbar.component';
+import { HomepageShortcutComponent } from './homepage-shortcut/homepage-shortcut.component';
+import { HomepageRecentActivityComponent } from './homepage-recent-activity/homepage-recent-activity.component';
 
 
 @NgModule({
@@ -17,7 +20,10 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
     UserManagementComponent,
     HomePageComponent,
     UserProfileComponent,
-    ChangePasswordComponent
+    ChangePasswordComponent,
+    HomepagenavbarComponent,
+    HomepageShortcutComponent,
+    HomepageRecentActivityComponent
   ],
   imports: [
     CommonModule,
