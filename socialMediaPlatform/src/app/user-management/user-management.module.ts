@@ -11,6 +11,7 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
 import { HomepagenavbarComponent } from './homepagenavbar/homepagenavbar.component';
 import { HomepageShortcutComponent } from './homepage-shortcut/homepage-shortcut.component';
 import { HomepageRecentActivityComponent } from './homepage-recent-activity/homepage-recent-activity.component';
+import { HomepageFollowingComponent } from './homepage-following/homepage-following.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { HomepageRecentActivityComponent } from './homepage-recent-activity/home
     ChangePasswordComponent,
     HomepagenavbarComponent,
     HomepageShortcutComponent,
-    HomepageRecentActivityComponent
+    HomepageRecentActivityComponent,
+    HomepageFollowingComponent
   ],
   imports: [
     CommonModule,
