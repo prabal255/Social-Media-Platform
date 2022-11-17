@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { UserManagementComponent } from './user-management/user-management.component';
+import { UserSignInComponent } from './user-management/user-sign-in/user-sign-in.component';
 
 const routes: Routes = [
   {
@@ -33,7 +35,11 @@ pathMatch: 'full'
     path: 'Admin/Panel',
     loadChildren: () => import('./Views/Admin/Modules/admin-panel/admin-panel.module').then(m => m.AdminPanelModule)
   }
-  
+  // ,{
+  //   path:'PreSignIn',
+  //   component:UserManagementComponent
+  // },
+
 ];
 
 @NgModule({

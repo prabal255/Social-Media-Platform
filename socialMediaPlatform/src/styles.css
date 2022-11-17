@@ -4,7 +4,8 @@
 @import url("./assets/UserProfile/css/responsive.css");
 @import url("./assets/UserProfile/css/responsive.css");
 
-
+@import url('./assets/UserManagement/css/style.css');
+@import url('./assets/UserManagement/css/responsive.css'); 
 
 @import url("./assets/UserProfile/css/main.min.css");
 
