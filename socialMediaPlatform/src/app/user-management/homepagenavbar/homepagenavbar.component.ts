@@ -11,5 +11,16 @@ export class HomepagenavbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  class="user-setting"
 
+  button(){
+    if(this.class=="user-setting")
+    {
+      this.class="user-setting active"
+    }
+    else if(this.class=="user-setting active")
+    {
+      this.class="user-setting"
+    }
+  }
 }
