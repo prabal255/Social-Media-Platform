@@ -1,1 +1,86 @@
-<p>auth works!</p>
+<style>
+    @font-face {
+     font-family: unicons;
+     src: url(../../../../assets/AdminPanel/fonts/unicons.eot?34404611);
+     src: url(../fontsunicons.eot?34404611#iefix) format("embedded-opentype"),
+       url(../../../../assets/AdminPanel/fonts/unicons.woff2?34404611)
+         format("woff2"),
+       url(../../../../assets/AdminPanel/fonts/unicons.woff?34404611)
+         format("woff"),
+       url(../../../../assets/AdminPanel/fonts/unicons.ttf?34404611)
+         format("truetype"),
+       url(../../../../assets/AdminPanel/fonts/unicons.svg?34404611#unicons)
+         format("svg");
+     font-weight: 400;
+     font-style: normal;
+   } 
+   @font-face {
+     font-family: remixicon;
+     src: url(../../../../assets/AdminPanel/fonts/remixicon.eot?t=1590207869815);
+     src: url(../../../../assets/AdminPanel/fonts/remixicon.eot?t=1590207869815#iefix)
+         format("embedded-opentype"),
+       url(../../../../assets/AdminPanel/fonts/remixicon.woff2?t=1590207869815)
+         format("woff2"),
+       url(../../../../assets/AdminPanel/fonts/remixicon.woff?t=1590207869815)
+         format("woff"),
+       url(../../../../assets/AdminPanel/fonts/remixicon.ttf?t=1590207869815)
+         format("truetype"),
+       url(../../../../assets/AdminPanel/fonts/remixicon.svg?t=1590207869815#remixicon)
+         format("svg");
+     font-display: swap;
+   } 
+           </style>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="../../../../../../../../assets/AdminPanel/AdminPanel/images/favicon.ico">
+        
+        <!-- Theme Config Js -->
+        <script src="../../../../assets/AdminPanel/js/hyper-config.js"></script>
+
+        <!-- App css -->
+        <link href="../../../../assets/AdminPanel/css/app-saas.min.css" type="text/css" id="app-style" />
+
+        <!-- Icons css -->
+        <link href="../../../../assets/AdminPanel/css/icons.min.css" type="text/css" />
+
+    <div class="authentication-bg" style="margin: 0;
+    font-family: var(--ct-body-font-family);
+    font-size: var(--ct-body-font-size);
+    font-weight: var(--ct-body-font-weight);
+    line-height: var(--ct-body-line-height);
+    color: var(--ct-body-color);
+    text-align: var(--ct-body-text-align);
+    background-color: var(--ct-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;">
+        <div class="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5">
+            <div class="container">
+                <router-outlet></router-outlet>
+               
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end page -->
+
+        <footer class="footer footer-alt">
+            <span id="copyYear"></span> <script>document.getElementById('copyYear').innerText(new Date().getFullYear());</script>2022 - © Radix Software Solutions Pvt. Ltd.
+        </footer>
+        <!-- Vendor js -->
+        <script src="../../../../assets/AdminPanel/js/vendor.min.js"></script>
+        
+        <!-- App js -->
+        <script src="../../../../assets/AdminPanel/js/app.min.js"></script>
+
+    </div>
+

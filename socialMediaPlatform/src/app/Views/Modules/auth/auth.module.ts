@@ -5,13 +5,17 @@ import { AuthRoutingModule } from './auth-routing.module';
 import { AuthComponent } from './auth.component';
 import { SignInComponent } from './Conponents/sign-in/sign-in.component';
 import { SignUpComponent } from './Conponents/sign-up/sign-up.component';
+import { ResetPasswordComponent } from './Conponents/reset-password/reset-password.component';
+import { LockScreenComponent } from './Conponents/lock-screen/lock-screen.component';
 
 
 @NgModule({
   declarations: [
     AuthComponent,
     SignInComponent,
-    SignUpComponent
+    SignUpComponent,
+    ResetPasswordComponent,
+    LockScreenComponent
   ],
   imports: [
     CommonModule,
