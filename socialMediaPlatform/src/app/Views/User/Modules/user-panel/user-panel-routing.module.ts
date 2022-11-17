@@ -1,0 +1,23 @@
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { UserPanelComponent } from './user-panel.component';
+
+const routes: Routes = [
+  {
+    path:'',
+  component:UserPanelComponent,
+  // children:[
+  //   {
+  //     path:'',
+  //     redirectTo:'Dashboard',
+  //     pathMatch:'full'
+  //   }
+// ]
+}
+];
+
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
+})
+export class UserPanelRoutingModule { }

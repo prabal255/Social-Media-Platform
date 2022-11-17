@@ -3,14 +3,22 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-
     path: '',
-redirectTo:"UserManagement",
+redirectTo:"User/Auth",
 pathMatch: 'full'
   },
   {
-    path: 'UserManagement',
-    loadChildren: () => import('./user-management/user-management.module').then(m => m.UserManagementModule)
+    path: 'User',
+redirectTo:"User/Auth",
+pathMatch: 'full'
+  },
+  {
+    path: 'User/Auth',
+    loadChildren: () => import('./Views/User/Modules/auth/auth.module').then(m => m.AuthModule)
+  },
+  {
+    path: 'User/Panel',
+    loadChildren: () => import('./Views/User/Modules/user-panel/user-panel.module').then(m => m.UserPanelModule)
   },
   {
     path: 'Admin',
@@ -19,11 +27,11 @@ pathMatch: 'full'
   },
   {
     path: 'Admin/Auth',
-    loadChildren: () => import('./Views/Modules/auth/auth.module').then(m => m.AuthModule)
+    loadChildren: () => import('./Views/Admin/Modules/auth/auth.module').then(m => m.AuthModule)
   },
   {
     path: 'Admin/Panel',
-    loadChildren: () => import('./Views/Modules/admin-panel/admin-panel.module').then(m => m.AdminPanelModule)
+    loadChildren: () => import('./Views/Admin/Modules/admin-panel/admin-panel.module').then(m => m.AdminPanelModule)
   }
   
 ];
