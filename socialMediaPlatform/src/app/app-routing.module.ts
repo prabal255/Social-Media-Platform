@@ -14,7 +14,8 @@ pathMatch: 'full'
   },
   {
     path: 'Admin',
-    loadChildren: () => import('./Views/Modules/auth/auth.module').then(m => m.AuthModule)
+    redirectTo:"Admin/Auth",
+pathMatch: 'full'
   },
   {
     path: 'Admin/Auth',
